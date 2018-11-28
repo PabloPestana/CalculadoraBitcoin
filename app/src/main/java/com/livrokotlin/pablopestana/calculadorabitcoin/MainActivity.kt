@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         val valor_digitado = txt_valor.text.toString().replace(",",".").toDouble()
         val resultado = if (cotacaoBitcoin > 0)  valor_digitado / cotacaoBitcoin else 0.0
         txt_resultado.text = "%.8f".format(resultado)
-        
+
     }
 
 }
